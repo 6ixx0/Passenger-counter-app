@@ -9,6 +9,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(/School_Busses_noir.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top left;
 }
 
 h1{
@@ -27,7 +31,7 @@ h2{
     width: 100%;
     padding: 20px;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bolder;
     font-size: 24px;
 }
@@ -38,7 +42,12 @@ h2{
     width: 100%;
     padding: 20px;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bolder;
+    font-size: 24px;
+}
+
+#paragraph{
+    margin-top: 20px;
     font-size: 24px;
 }

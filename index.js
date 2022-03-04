@@ -1,16 +1,20 @@
-
-
-
 let countEl = document.getElementById("counter")
+let saveEl = document.getElementById("paragraph")
 
 let count = 0
 
 function increment(){
-    count =count + 1;
+    count += 1;
     countEl.innerHTML = count
    
 }
 
 function save(){
-    console.log(count)
+    let counting = count + " - "
+    saveEl.textContent += counting
+    countEl.innerHTML = count
+    count = 0
 }
+
+
+

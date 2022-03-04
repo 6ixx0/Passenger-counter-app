@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#increment{
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#save{
+    background-color: green;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+}
